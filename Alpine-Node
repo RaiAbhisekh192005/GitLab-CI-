@@ -1,0 +1,6 @@
+build website:
+    image: node:20-alpine3.19
+    script:
+    - yarn install
+    - yarn build
+
